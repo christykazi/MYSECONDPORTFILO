@@ -8,19 +8,28 @@
 .start__girliee {
     width: 60%;
     aspect-ratio: 1/1; 
-    border-radius: 2rem;  
-      background: linear-gradient
-        var(--color-primary)
-        transparent
-    ;
+    border-radius: 3rem;  
+      background:
+        var(--color-bg-variant) ;
+        border: 2rem ;
+        
+        border: 1px solid transparent;
+        transform: rotate(-10deg);
+    transition: var(--transition);
+    
     display: grid;
     place-items: center;
     
 }
 
 .start__girliee-image {
-    border: 1px solid transparent;
-    border-radius: 2rem ; 
+    background: linear-gradient
+    var(--color-primary)
+    transparent
+;
+
+
+    border-radius: 2rem; 
     transform: rotate(10deg);
     transition: var(--transition);
      
