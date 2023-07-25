@@ -1,6 +1,6 @@
 .services__container{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 3rem;
 }
 
@@ -27,12 +27,15 @@
 
 .service__head h3{
     color: var(--color-bg);
-    font-size: 1rem;
+    font-size: 1.5rem;
     text-align: center;
+   
+   
 }
 
 .service__list {
-    padding: 2rem;
+    padding: 2rem; 
+   
 }
 .service__list li {
     display: flex;
@@ -41,8 +44,10 @@
 }
 .service__list-icon {
     color: var(--color-primary);
-    margin-top: 2px;
+  /*     margin-bottom: 2px; */
+    font-size: 40px;
 }
+  
 /* ********MEDIA QUERIES(MEDIUM DEVICES)********** */
 @media screen and (max-width:1024px) {
     .services__container{
@@ -55,7 +60,7 @@
 }
 
 /* ********MEDIA QUERIES(SMALL DEVICES)********** */
-.services__container{
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
-}
+/* .services__container{ */
+    /* grid-template-columns: 1fr; */
+    /* gap: 1.5rem; */
+/* } */
