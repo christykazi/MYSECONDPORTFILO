@@ -1,6 +1,6 @@
 import React from 'react'
 import './start.css'
-import GIRLIEE from "../../assets/girliee.jpg"
+import MY from '../../assets/girliee.jpg'
 import {FaAward} from 'react-icons/fa'
 import {FiUsers} from 'react-icons/fi'
 import {VscFolderLibrary} from 'react-icons/vsc'
@@ -14,7 +14,7 @@ const Start = () => {
     <div className="container start__container">
       <div className="start__girliee">
       <div className="start__girliee-image">
-        <img src={GIRLIEE} alt="Start Image" />
+       <img src={MY} alt="start Image" />
       </div>
       </div>
       
@@ -40,14 +40,10 @@ const Start = () => {
         </article>
       </div>
 <p>Hello, Dear. Welcome to my profile, I am a well grounded FullStack Website Developer. I always deliver the best. You can contact me for all projects. rerum nemo, accusamus architecto distinctio quas? Accusantium, nostrum.</p>
-
-<a href="#contact" className='btn btn-primary'>Let's Chat</a>
-
-
-
-
+{/* <a href="#contact" id='cont' className='btn btn-primary'>Let's Chat</a> */}
 
       </div>
+
     </div>
    </section>
   )

@@ -11,26 +11,32 @@
     border-radius: 3rem;  
       background:
         var(--color-bg-variant) ;
-        border: 2rem ;
-        
         border: 1px solid transparent;
         transform: rotate(-10deg);
     transition: var(--transition);
-    
     display: grid;
     place-items: center;
     
+    
 }
+/* .start__girliee{ */
+    /* width: 60%; */
+    /* aspect-ratio: 1/1;  */
+    /* background: var(--color-bg-variant); */
+    /* padding: 1.3rem; */
+    /* background-repeat: 2rem; */
+    /* border: 1px solid transparent; */
+    /* transition: var(--transition); */
+    /* transform: rotate(-10deg); */
+/* } */
 
 .start__girliee-image {
     background: linear-gradient
     var(--color-primary)
     transparent
 ;
-
-
     border-radius: 2rem; 
-    transform: rotate(10deg);
+    transform: rotate(23deg);
     transition: var(--transition);
      
 }
@@ -81,6 +87,10 @@ small{
 p{
     margin: 2rem 0 2.6rem;
     color: var(--color-light);
+}
+#cont{
+    display: flex;
+    justify-content: center;
 }
 
 /* ********MEDIA QUERIES(MEDIUM DEVICES)********** */

@@ -42,10 +42,17 @@
     gap: 1rem;
     margin-bottom: 0.8rem;
 }
+p{
+    height:2px;
+
+}
 .service__list-icon {
     color: var(--color-primary);
   /*     margin-bottom: 2px; */
     font-size: 40px;
+    
+    
+
 }
   
 /* ********MEDIA QUERIES(MEDIUM DEVICES)********** */
