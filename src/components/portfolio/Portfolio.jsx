@@ -21,47 +21,47 @@ const Portfolio = () => {
     </div>
       <h3>This is my Portfolio item title</h3>
       <a href="https://github.com/christykazi/MYSECONDPORTFILO.git" className='btn' target='_blank' >GIT-HUB</a>
-      <a href={IMG1} className='btn btn primary' target='_blank'>LIVE DEMO</a>
+      <a href="https://dribbble.com/Alien_pixels" className='btn btn primary' target='_blank'>LIVE DEMO</a>
   </article>
   <article className='portfolio__item'>
     <div className="portfolio__item image">
     <img src={IMG4} alt="" />
     </div>
       <h3>This is my Portfolio item title</h3>
-      <a href="https://github.com/christykazi/MYSECONDPORTFILO.git" className='btn'>GIT-HUB</a>
-      <a href="https://dribble.com/Alien_pixels" className='btn btn primary' target='_blank'>LIVE DEMO</a>
+      <a href="https://github.com/christykazi/MYSECONDPORTFILO.git" className='btn' target='_blank'>GIT-HUB</a>
+      <a href="https://dribbble.com/Alien_pixels" className='btn btn primary' target='_blank'>LIVE DEMO</a>
   </article>
   <article className='portfolio__item'>
     <div className="portfolio__item- image">
     <img src={IMG3} alt="" />
     </div>
       <h3>This is my Portfolio item title</h3>
-      <a href="https://github.com/christykazi/MYSECONDPORTFILO.git" className='btn'>GIT-HUB</a>
-      <a href="https://dribble.com/Alien_pixels" className='btn btn primary' target='_blank'>LIVE DEMO</a>
+      <a href="https://github.com/christykazi/MYSECONDPORTFILO.git" className='btn' target='_blank'>GIT-HUB</a>
+      <a href="https://dribbble.com/Alien_pixels" className='btn btn primary' target='_blank' >LIVE DEMO</a>
   </article>
   <article className='portfolio__item'>
     <div className="portfolio__item image">
     <img src={IMG5} alt="" />
     </div>
       <h3>This is my Portfolio item title</h3>
-      <a href="https://github.com/christykazi/MYSECONDPORTFILO.git" className='btn'>GIT-HUB</a>
-      <a href="https://dribble.com/Alien_pixels" className='btn btn primary' target='_blank'>LIVE DEMO</a>
+      <a href="https://github.com/christykazi/MYSECONDPORTFILO.git" className='btn' target='_blank'>GIT-HUB</a>
+      <a href="https://dribbble.com/Alien_pixels" className='btn btn primary' target='_blank'>LIVE DEMO</a>
   </article>
   <article className='portfolio__item'>
     <div className="portfolio__item image">
     <img src={IMG6} alt="" />
     </div>
       <h3>This is my Portfolio item title</h3>
-      <a href="https://github.com/christykazi/MYSECONDPORTFILO.git" className='btn'>GIT-HUB</a>
-      <a href="https://dribble.com/Alien_pixels" className='btn btn primary' target='_blank'>LIVE DEMO</a>
+      <a href="https://github.com/christykazi/MYSECONDPORTFILO.git" className='btn' target='_blank'>GIT-HUB</a>
+      <a href="https://dribbble.com/Alien_pixels" className='btn btn primary' target='_blank'>LIVE DEMO</a>
   </article>
   <article className='portfolio__item'>
     <div className="portfolio__item image">
-    <img src="https://cdn.dribbble.com/userupload/4399910/file/original-932e7c673c1013ae79c5c38368f16e31.png?resize=320x240&vertical=center" alt="" />
+    <img src={IMG1} alt="" />
     </div>
       <h3>This is my Portfolio item title</h3>
-      <a href="https://github.com/christykazi/MYSECONDPORTFILO.git" className='btn'>GIT-HUB</a>
-      <a href="https://dribble.com/Alien_pixels" className='btn btn primary' target='_blank'>LIVE DEMO</a>
+      <a href="https://github.com/christykazi/MYSECONDPORTFILO.git" className='btn' target='_blank'>GIT-HUB</a>
+      <a href="https://dribbble.com/Alien_pixels" className='btn btn primary' target='_blank'>LIVE DEMO</a>
   </article>
 </div>
    </section>
