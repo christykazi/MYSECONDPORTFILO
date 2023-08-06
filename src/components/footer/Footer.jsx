@@ -1,5 +1,7 @@
 import React from 'react'
 import './footer.css'
+import {BsFacebook, BsTwitter} from 'react-icons/bs'
+import {FaInstagramSquare} from 'react-icons/fa'
 
 const Footer = () => {
   return (
@@ -16,8 +18,16 @@ const Footer = () => {
         <li><a href="#testimonials">Testimonials</a></li>
         <li><a href="#contact">Contact</a></li>
         <li><a href="#"></a></li>
-
       </ul>
+
+      <div className="footer__socials">
+        <a href="https://facebook.com"><BsFacebook/></a>
+        <a href="https://instagram.com"><FaInstagramSquare/></a>
+        <a href="https://twitter.com"><BsTwitter/></a>
+      </div>
+      <div className="footer__copyright">
+        <small>&copy; CriXianna Portfolio. All rights reserved.</small>
+      </div>
     </footer>
   )
 }
