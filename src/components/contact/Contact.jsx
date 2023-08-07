@@ -37,9 +37,9 @@ const Contact = () => {
       </article>
       <article className='contact__option'>
       <BsMessenger className='contact__option-icon'/>
-      <h3>MessengerLine</h3>
+      <h3>Messenger</h3>
       <h4>Christiana Agbai</h4>
-      <a href="https://m.me/christiana.agbai" target='_blank'>Chat me up here</a>
+      <a href="https://web.facebook.com/" target='_blank'>Chat me up here</a>
       </article>
       <article className='contact__option'>
       <BsWhatsapp className='contact__option-icon'/>
