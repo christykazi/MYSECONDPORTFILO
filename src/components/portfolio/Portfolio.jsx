@@ -6,11 +6,48 @@ import IMG3 from '../../assets/portfolio3.jpg'
 import IMG4 from '../../assets/portfolio4.jpg'
 import IMG5 from '../../assets/portfolio5.png'
 import IMG6 from '../../assets/portfolio6.jpg'
+
 const data =[
   {
     id:1,
-    image:'Crypto Currency Dashboard & Financial Visualization',
-    github:'https://github.com',
+    image: IMG1,
+    title:'Crypto Currency Dashboard & Financial Visualization',
+    github:'https://github.com/christykazi/MYSECONDPORTFILO.git',
+    demo: 'https://dribbble.com/shots/16673715=Cryptocurrency-dashboard-and'
+  },
+  {
+    id:1,
+    image: IMG2,
+    title:'Crypto Currency Dashboard & Financial Visualization',
+    github:'https://github.com/christykazi/MYSECONDPORTFILO.git',
+    demo: 'https://dribbble.com/shots/16673715=Cryptocurrency-dashboard-and'
+  },
+  {
+    id:1,
+    image: IMG4,
+    title:'Crypto Currency Dashboard & Financial Visualization',
+    github:'https://github.com/christykazi/MYSECONDPORTFILO.git',
+    demo: 'https://dribbble.com/shots/16673715=Cryptocurrency-dashboard-and'
+  },
+  {
+    id:1,
+    image: IMG3,
+    title:'Crypto Currency Dashboard & Financial Visualization',
+    github:'https://github.com/christykazi/MYSECONDPORTFILO.git',
+    demo: 'https://dribbble.com/shots/16673715=Cryptocurrency-dashboard-and'
+  },
+  {
+    id:1,
+    image: IMG6,
+    title:'Crypto Currency Dashboard & Financial Visualization',
+    github:'https://github.com/christykazi/MYSECONDPORTFILO.git',
+    demo: 'https://dribbble.com/shots/16673715=Cryptocurrency-dashboard-and'
+  },
+  {
+    id:1,
+    image: IMG5,
+    title:'Crypto Currency Dashboard & Financial Visualization',
+    github:'https://github.com/christykazi/MYSECONDPORTFILO.git',
     demo: 'https://dribbble.com/shots/16673715=Cryptocurrency-dashboard-and'
   }
 ]
@@ -23,17 +60,23 @@ const Portfolio = () => {
 <h2>Portfolio</h2>
 
 <div className="container portfolio__container">
-  <article className='portfolio__item'>
+  {
+    data.map(({id, image, title, github, demo}) => {
+      return (
+        <article  key ={id} className='portfolio__item'>
     <div className="portfolio__item-image">
-    <img src={IMG1} alt="" />
+    <img src={image} alt={title} />
     </div>
       <h3>This is my Portfolio item title</h3>
-     <div className="portfolio__container-cta">
-     <a href="https://github.com/christykazi/MYSECONDPORTFILO.git" className='btn' target='_blank' >GIT-HUB</a>
-      <a href="https://dribbble.com/Alien_pixels" className='btn btn primary' target='_blank'>LIVE DEMO</a>
+     <div className={title}>
+     <a href={github} className='btn' target='_blank' >GIT-HUB</a>
+      <a href={demo} className='btn btn primary' target='_blank'>LIVE DEMO</a>
      </div>
   </article>
  
+      )
+    })
+  }
 </div>
    </section>
   )
