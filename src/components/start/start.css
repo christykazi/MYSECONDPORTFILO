@@ -8,12 +8,12 @@
 .start__girliee {
     width: 60%;
     aspect-ratio: 1/1; 
-    border-radius: 3rem;  
-      background:
-        var(--color-bg-variant) ;
-        border: 1px solid transparent;
-        transform: rotate(-10deg);
-    transition: var(--transition);
+    border-radius: 2rem;  
+    background: linear-gradient(
+        45deg,
+        transparent,
+        var(--color-primary-variant),transparent
+    );
     display: grid;
     place-items: center;
     
@@ -30,18 +30,21 @@
     /* transform: rotate(-10deg); */
 /* } */
 
-.start__girliee-image {
-    background: linear-gradient
-    var(--color-primary)
-    transparent
-;
+.start__girliee-image img {
+    /* background: linear-gradient */
+    /* var(--color-primary) */
+    /* transparent */
+/* ; */
+
+/* border-radius: 0; */
     border-radius: 2rem; 
-    transform: rotate(23deg);
+    overflow: hidden;
+    transform: rotate(10deg);
     transition: var(--transition);
      
 }
 
-.start__girliee-image:hover {
+.start__girliee-image img:hover {
     transform: rotate(0);
 }
 
@@ -54,7 +57,7 @@
 }
 .start__cards{
     display: grid;
-    grid-template-columns: repeat(3,3fr);
+    grid-template-columns: repeat(3,1fr);
     gap: 1.5rem
     ;
 }
@@ -70,6 +73,7 @@
 .start__card:hover{
     background: transparent;
     border-color: var(--color-primary-variant);
+    cursor: default;
 }
 .start__icon{
     color: var(--color-primary);
@@ -90,7 +94,8 @@ p{
 }
 #cont{
     display: flex;
-    justify-content: center;
+    margin-top: 8rem;
+    
 }
 
 /* ********MEDIA QUERIES(MEDIUM DEVICES)********** */
@@ -99,11 +104,14 @@ p{
         grid-template-columns: 1fr;
         gap: 0;
     } 
-    .start__girliee{
+    .start__girliee {
         width: 50%;
         margin: 2rem auto 4rem;
     }
     p{
+        margin: 1rem 0 1.5rem;
+    }
+    .start__content p {
         margin: 1rem 0 1.5rem;
     }
 

@@ -39,11 +39,13 @@ const Start = () => {
         <small> 90+ Completed</small>
         </article>
       </div>
-<p>Hello, Dear. Welcome to my profile, I am a well grounded FullStack Website Developer. I can create, develop, design, Web Pages, Ecommerce Apps and Mobile Apps etc... I always deliver the best. You can contact me for all projects.</p>
-{/* <a href="#contact" id='cont' className='btn btn-primary'>Let's Chat</a> */}
+      
+<p>
+Hello, Dear. Welcome to my profile, I am a well grounded FullStack Website Developer. I can create, develop, design, Web Pages, Ecommerce Apps and Mobile Apps etc... I always deliver the best. You can contact me for all projects.
+</p>
 
+<a href="#contact" id='cont' className='btn btn-primary'>Let's Chat</a> 
       </div>
-
     </div>
    </section>
   )
