@@ -32,7 +32,7 @@ h3{
 
 .portfolio__container-cta{
     display: flex;
-    gap: 1rem;
+    gap: 0.5rem;
     margin-bottom: 1rem;
 }
 /* ********MEDIA QUERIES(MEDIUM DEVICES)********** */
