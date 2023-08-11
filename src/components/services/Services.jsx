@@ -12,31 +12,31 @@ const Services = () => {
       <div className="container services__container">
         <article className='service'>
         <div className="service__head">
-          <h3> Web Development</h3>
+        <h3>FullStack Developer</h3>
         </div>
 
         <ul className='service__list'>
           <li>
             <HiBadgeCheck 
             className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+            <p> I am an experienced software engineer.</p>
           </li>
           <li>
             <HiBadgeCheck className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+            <p>I create, develop and design both client-side</p>
           </li>
           <li>
             <HiBadgeCheck className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+            <p> And server-side of the software application.</p>
           </li>
           <li>
             <HiBadgeCheck className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+            <p> I am knowledgeable about design principles,</p>
           </li>
 
           <li>
             <HiBadgeCheck className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+            <p>user interfaces,user experiences and database architecture.</p>
           </li>         
         </ul>
         </article>
@@ -50,29 +50,29 @@ const Services = () => {
         <ul className='service__list'>
           <li>
             <HiBadgeCheck className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+            <p> As a graphic designer,            I create eye-catching </p>
           </li>
 
-          <li>
+          <li> 
             <HiBadgeCheck
 
             className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+            <p>visual contents and imagery products.</p>
           </li>
 
           <li>
             <HiBadgeCheck className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+            <p> I transform ideas into creative designs. </p>
           </li>
 
           <li>
             <HiBadgeCheck className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+            <p>I assembles together images, typography,</p>
           </li>
 
           <li>
             <HiBadgeCheck className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+            <p>or motion graphics to create a piece of design.</p>
           </li> 
 
           <li>
@@ -85,31 +85,31 @@ const Services = () => {
 
         <article className='service'>
         <div className="service__head">
-          <h3> Ul/UX Designing</h3>
+          <h3> Cyber Sercurity</h3>
         </div>
 
         <ul className='service__list'>
           <li>
             <HiBadgeCheck className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+            <p>I am an experienced Cybersecurity Protector. </p>
           </li>
           <li>
             <HiBadgeCheck className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+            <p>I protect internet-connected devices and  </p>
           </li>
           <li>
             <HiBadgeCheck className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur elit.</p>
-          </li>
-
-          <li>
-            <HiBadgeCheck className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+            <p>services from malicious attacks by cybercriminals.</p>
           </li>
 
           <li>
             <HiBadgeCheck className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+            <p>I protect against phishing schemes, ransomware attacks,</p>
+          </li>
+
+          <li>
+            <HiBadgeCheck className='service__list-icon'/>
+            <p>identity theft, data breaches, and financial losses.</p>
           </li>         
         </ul>
         </article>

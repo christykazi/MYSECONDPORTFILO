@@ -134,4 +134,9 @@ p{
    p{
     margin: 1.5rem 0;
    }
+   #cont{
+    display: flex;
+    margin-top: 11rem;
+    
+}
     }
