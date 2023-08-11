@@ -33,19 +33,19 @@ const Contact = () => {
       <h3>Email</h3>
       <h4>agbaichristiana37
       @gmail.com</h4>
-      <a href="mailto:agbaichristiana37@gmail.com" target='_blank'>Send me a message</a>
+      <a href="mailto:agbaichristiana37@gmail.com" target='_blank' className='btn' >Send me a message</a>
       </article>
       <article className='contact__option'>
       <BsMessenger className='contact__option-icon'/>
       <h3>Messenger</h3>
       <h4>Christiana Agbai</h4>
-      <a href="https://web.facebook.com/" target='_blank'>Chat me up here</a>
+      <a href="https://m.me/crixianna.kaziokwu/" target='_blank' className=' btn' >Chat me up here</a>
       </article>
       <article className='contact__option'>
       <BsWhatsapp className='contact__option-icon'/>
       <h3>Whatsapp</h3>
       <h4>Click below</h4>
-      <a href="https://api.whatsapp.com/send?phone=+2347010917437" target='_blank'>Send me a DM</a>
+      <a href="https://api.whatsapp.com/send?phone=+2347010917437" target='_blank' className='btn' >Send me a DM</a>
       </article>
 
       </div>
