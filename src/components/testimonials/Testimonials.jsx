@@ -8,22 +8,17 @@ import AVTR4 from '../../assets/avatar4.jpg'
 
 
 // import Swiper core and required modules
-
 // import { Pagination } from 'swiper';
+// 888
+// import { Pagination } from 'swiper/modules';
+
+// import { Swiper, SwiperSlide } from 'swiper/react';
 
 import { Pagination } from 'swiper/modules';
-
 import { Swiper, SwiperSlide } from 'swiper/react';
-
-
 // // Import Swiper styles
-// import 'swiper/css';
-// import 'swiper/css/pagination';
-
-import 'swiper/swiper.min.css';
-import 'swiper/components/pagination/pagination.min.css';
-
-SwiperCore.use([Pagination]);
+import 'swiper/css';
+import 'swiper/css/pagination';
 
 
 
@@ -31,7 +26,8 @@ const data=[
   {
   avatar: AVTR1,
   name: 'Miss Jane Agbai',
-  review: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione voluptate quos ullam praesentium, necessitatibus dolor numquam, voluptatem aliquam voluptatibus dicta ipsum! Cumque unde nemo nostrum excepturi iste ani?',
+  review: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione voluptate quos ullam praesentium, necessitatibus dolor numquam, voluptatem aliquam voluptatibus dicta ipsum! Cumque unde nemo nostrum excepturi iste ani?'
+  ,
 },
 {
   avatar: AVTR2,
@@ -56,16 +52,14 @@ const Testimonials = () => {
       <h2>Testimonials</h2>
 
      {/*  Swiper  */}
-      < Swiper pagination ={true}
-      className="container testimonials__container">
-{/* 
-      install Swiper modules  */}
-   {/*  modules={[Pagination]} */}
-
+      < Swiper
+      className="container testimonials__container"
+      /* install Swiper modules  */
+    modules={[Pagination]}
        spaceBetween={40}
        slidesPerView={1} 
-      pagination={{ clickable: true }}  
-       
+       pagination={{ clickable: true }}  
+       >
        {
         data.map(({ avatar, name, review}, index) => { 
         return (
