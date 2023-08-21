@@ -5,7 +5,7 @@ import {HiBadgeCheck} from 'react-icons/hi'
 const Services = () => {
   return (
     <section id='services'>
-    <h5>What i offer</h5>
+    <h5>What I offer</h5>
       <h2>My Services</h2>
      
 
@@ -36,7 +36,7 @@ const Services = () => {
 
           <li>
             <HiBadgeCheck className='service__list-icon'/>
-            <p>user interfaces,user experiences and database architecture.</p>
+            <p>user experiences and database architecture.</p>
           </li>         
         </ul>
         </article>
@@ -50,14 +50,14 @@ const Services = () => {
         <ul className='service__list'>
           <li>
             <HiBadgeCheck className='service__list-icon'/>
-            <p> As a graphic designer,            I create eye-catching </p>
+            <p> As a graphic designer, I create eye-catching </p>
           </li>
 
           <li> 
             <HiBadgeCheck
 
             className='service__list-icon'/>
-            <p>visual contents and imagery products.</p>
+            <p>visuals contents and imagery products.</p>
           </li>
 
           <li>
@@ -67,7 +67,7 @@ const Services = () => {
 
           <li>
             <HiBadgeCheck className='service__list-icon'/>
-            <p>I assembles together images, typography,</p>
+            <p>I assemble images, typography, art</p>
           </li>
 
           <li>
@@ -91,25 +91,25 @@ const Services = () => {
         <ul className='service__list'>
           <li>
             <HiBadgeCheck className='service__list-icon'/>
-            <p>I am an experienced Cybersecurity Protector. </p>
+            <p>I am an experienced Cyber Security Protector. </p>
           </li>
           <li>
             <HiBadgeCheck className='service__list-icon'/>
-            <p>I protect internet-connected devices and  </p>
+            <p>I protect internet-connected devices </p>
           </li>
           <li>
             <HiBadgeCheck className='service__list-icon'/>
-            <p>services from malicious attacks by cybercriminals.</p>
-          </li>
-
-          <li>
-            <HiBadgeCheck className='service__list-icon'/>
-            <p>I protect against phishing schemes, ransomware attacks,</p>
+            <p>from malicious attacks by cybercriminals,</p>
           </li>
 
           <li>
             <HiBadgeCheck className='service__list-icon'/>
-            <p>identity theft, data breaches, and financial losses.</p>
+            <p> phishing or ransomware schemes, Identity theft, </p>
+          </li>
+
+          <li>
+            <HiBadgeCheck className='service__list-icon'/>
+            <p>data breaches and financial losses.</p>
           </li>         
         </ul>
         </article>
